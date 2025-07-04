@@ -1,8 +1,7 @@
-package org.practice.design.pattern.proxy;
+package org.practice.design.pattern.facade;
 
 
-
-public class CompilerFacade implements Compiler{
+public class CompilerFacade implements Compiler {
 
     private Lexer lexer;
     private Parser parser;

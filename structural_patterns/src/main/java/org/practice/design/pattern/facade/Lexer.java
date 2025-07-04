@@ -1,6 +1,4 @@
-package org.practice.design.pattern.proxy;
-
-import javax.sound.midi.Soundbank;
+package org.practice.design.pattern.facade;
 
 public class Lexer {
 

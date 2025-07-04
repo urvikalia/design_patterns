@@ -1,4 +1,4 @@
-package org.practice.design.pattern.proxy;
+package org.practice.design.pattern.facade;
 
 public class Parser {
 
