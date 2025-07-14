@@ -1,4 +1,4 @@
-# design_patterns
+# Design Patterns
 
 Design patterns are proven solution for standard problem in software 
 
