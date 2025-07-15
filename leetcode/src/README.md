@@ -1,10 +1,10 @@
 # Leet Code Problem solving Practice
 
-As an approach , I will revise the foundational material on it and latter keep practicing for the problems on leet code 
+As an approach , I will revise the foundational material on it and latter keep practicing for the problems on Leetcode 
 
 # Concepts to revise 
 
-1. Big O Notaion 
+1. Big O Notation 
 2. Sorting 
 3. Recursion 
 4. Trees
@@ -14,5 +14,44 @@ As an approach , I will revise the foundational material on it and latter keep p
 
 # Big O Notation 
 
+Fundamental language for algorithm efficency 
+It helps one to predict how the algorithm performs when input side increases. 
+
+Space complexity 
+Time complexity 
+
+Time Complexity
+* O(1) - Constant time . Idealistic expectation fetching at ramdom from an array based on Index, lookup of a hashtable 
+* O(logn) - Logarithmic time - its for algorithms which eliminates half of the search space with every iteration binary search
+* O(n) - linear search. For algorithms in which every element has to be scanned ones traversing of arrays
+* O(nlogn) - linearithmetic for algorithms with divide and conquer strategy 
+* O(n^2) - Quadratic time complexity : for nested loops 
+* O(2^n) - exponential time complexity where all the combinations have to be considered
+
+Space complexity 
+* O(1) - In place replacement 
+* O(logn) - recursive algorithm with logarithmic depth 
+* O(n) -  create a data stucture proportional to input size 
+* O(n^2) - involves two dimentional matrices or adjacency matrices for graph representation
+
+Data Structures
+1. Arrays 
+2. LinkedList : insertion and deletion is O(1) and search is O(n) 
+3. Hashtables : search is O(1), degrades to O(n) when we have collisions
+4. Binary Search : O(logn) - eliminates half of the data set 
+
+
+Trade of between Space and time complexity 
+
+Mobile application: one might want to optimize for space , but now it might not be a constraining factor as it use to be ealier 
+Desktop application : optimize for time 
+
+
+NlogN and N^2 change drastically when N is a large number 
+example is India Population - 1.43 billion , 1.43 *10^9 
+
+2 GHZ 4 core processor 
+effective processing assuming 80% parallel utilization 
+2*10^9 * 4* 0.8 ~ 6.4 *10^9 operations/ second 
 
 
