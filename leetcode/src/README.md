@@ -55,3 +55,12 @@ effective processing assuming 80% parallel utilization
 2*10^9 * 4* 0.8 ~ 6.4 *10^9 operations/ second 
 
 
+# Sorting 
+
+## Selection Sort
+
+Concept: Find the minimum element , swap with the first position , repeat the remaining array 
+Time Complexity  => O(n^2)
+Space complexity => O(1)
+Stable => No
+
