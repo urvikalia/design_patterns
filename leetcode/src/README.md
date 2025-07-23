@@ -60,7 +60,17 @@ effective processing assuming 80% parallel utilization
 ## Selection Sort
 
 Concept: Find the minimum element , swap with the first position , repeat the remaining array 
-Time Complexity  => O(n^2)
-Space complexity => O(1)
-Stable => No
+Time Complexity: O(n^2)
+Space complexity: O(1)
+Stable: No
+
+
+## Bubble Sort
+
+Concept: Repeatedly step through the list, compare adjacent elements , swap if wrong order
+Largest element bubbles to the correct position with each pass
+Can optimize with early termination if no swaps occur 
+Time Complexity: O(n^2) worst case, O(n) best case
+Space complexity: O(1)
+Stable: Yes 
 
