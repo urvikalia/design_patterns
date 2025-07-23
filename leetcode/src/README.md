@@ -74,3 +74,13 @@ Time Complexity: O(n^2) worst case, O(n) best case
 Space complexity: O(1)
 Stable: Yes 
 
+## Insertion Sort 
+
+Concept: Build sorted array one element at a time by inserting each element into correct position 
+excellent for small arrays or nearly sorted array 
+Used in hybrid algorithm 
+Online algorithm (can sort data as arrives)
+
+Time complexity: O(n^2) average/ worst , O(n) best
+Space complexity: O(1)
+Stable: Yes 
