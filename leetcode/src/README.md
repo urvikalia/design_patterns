@@ -119,9 +119,42 @@ at the end , swap the start value with last of smaller.
 
 ## Hoarse Sort
 
+again optimised Quick sort , with in place replacement 
+we scan through just once 
+have two pointers, smaller and bigger 
+while smaller <= bigger 
+    smaller = start+1
+    bigger = arr.length 
+    keep moving smaller 
+    keep moving bigger 
+    if both stuck , swap and increment smaller and decrement bigger 
+swap (arr, start, bigger)
+sort(arr, start, bigger-1)
+sort(arr, start, bigger+1)
+
 
 
 Java uses quick sort for primitive types and merge sort for objects 
 Quick sort is in place , merge sort is not 
 Quick sort is not stable , merge sort is stable 
 
+
+## Heap Sort 
+basically a complete binary tree stored as array 
+in place : build heap 
+then extract : the root [TODO]
+i th node
+    parent = i/2 -1
+    leftchild = 2*i + 1 
+    rightchild = 2*i + 2 
+
+build heap 
+    find the first non leaf node and loop through from that node to 0th node
+
+maxheapify 
+    for the Ith node 
+    find left child index and right child index 
+    find the largest of it 
+    // remination condition 
+            swap(arr, i, largestindex)
+            maxheapify(arr, largestIndex)
