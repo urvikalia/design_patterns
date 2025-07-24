@@ -96,3 +96,14 @@ Space complexity: O(n)
 Stable: Yes 
 
 
+## Quick Sort 
+
+Choose pivot, partition array such that 
+elements < pivot are to the left 
+elements > pivot are to the right 
+recursively sort partition 
+
+Time complexity: average case O(nlogn) , worst case o(n^2)
+Pivotal selection crusial for performance
+Space complexity: O(logn) 
+Stable: No 
