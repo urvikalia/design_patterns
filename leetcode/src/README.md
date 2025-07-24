@@ -84,3 +84,15 @@ Online algorithm (can sort data as arrives)
 Time complexity: O(n^2) average/ worst , O(n) best
 Space complexity: O(1)
 Stable: Yes 
+
+
+## Merge Sort
+
+Concept: Divide the array into halves, recursively sort each half, then merge sorted half
+Requires extra space for merging 
+Foundation for external sorting 
+Time complexity: O(nlogn) 
+Space complexity: O(n)
+Stable: Yes 
+
+
