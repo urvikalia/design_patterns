@@ -107,3 +107,21 @@ Time complexity: average case O(nlogn) , worst case o(n^2)
 Pivotal selection crusial for performance
 Space complexity: O(logn) 
 Stable: No 
+
+
+## Lomuto Sort 
+Its optimised quick sort , with in place replacement 
+so we have have pivot values as first or last 
+arrange them as smaller first and then bigger, one needs to remeber where smaller ends and where bigger starts
+whenever you find a value smaller than the pivot , you have to swap the end of smaller with the bigger 
+at the end , swap the start value with last of smaller. 
+
+
+## Hoarse Sort
+
+
+
+Java uses quick sort for primitive types and merge sort for objects 
+Quick sort is in place , merge sort is not 
+Quick sort is not stable , merge sort is stable 
+
