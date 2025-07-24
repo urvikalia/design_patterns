@@ -43,7 +43,5 @@ public class Hoares {
         System.out.println("Sorted array....");
         System.out.println(Arrays.toString(arr));
 
-
-
     }
 }
