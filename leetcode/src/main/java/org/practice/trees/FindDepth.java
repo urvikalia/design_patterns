@@ -6,7 +6,7 @@ import com.sun.source.tree.Tree;
 This is was part of thinking exercise for recursion
 Build function is not correct , its just a quick work around
 essence here is findDepth function
-also finddepth assumes its a complete binary tree
+
 
  */
 class TreeNode{
@@ -47,10 +47,13 @@ class TreeNode{
 public class FindDepth {
 
     public static int findDepth(TreeNode root) {
-        if(root.left==null && root.right==null)
-            return 0;
 
-        return (findDepth(root.left)+1);
+        if(root == null) return 0;
+
+        int leftDepth = findDepth(root.left);
+        int rightDepth = findDepth(root.right);
+
+        return 1+ Math.max(leftDepth, rightDepth);
     }
 
     private static TreeNode addLeftNode(TreeNode root, int val)
@@ -83,10 +86,8 @@ public class FindDepth {
     }
 
     public static void main(String[] args) {
-
             TreeNode root = buildTree();
             int depth =findDepth(root);
              System.out.println("Depth of the tree is: " + depth);
-
     }
 }
